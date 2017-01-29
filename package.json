@@ -1,6 +1,6 @@
 {
   "name": "amqplib-retry",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "RabbitMQ retry logic for amqp.node",
   "main": "lib/index.js",
   "scripts": {
