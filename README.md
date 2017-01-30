@@ -2,6 +2,7 @@
 
 [![NPM Version][npm-image]][npm-url]
 [![Build][ci-image]][ci-url]
+[![Coverage][coverage-image]][coverage-url]
 
 Create a channel that supports an exponential-backoff strategy for retrying failed attempts to consume messages on a RabbitMQ queue.
 
@@ -41,12 +42,17 @@ Promise
 ## Options
 
 __channel__ (required):  Amqplib channel.  See: [connection.createChannel()](http://www.squaremobius.net/amqp.node/channel_api.html#model_createChannel)
-__initialDelay__ (optional): Delay in milliseconds between retries.  Default: `5000`
-__maxRetries__ (optional):  Maximum number of retries before dead-lettering.  Default: `5`
-__separator__ (options): The retry queue separator to use (ie, `delayed.retry.consumer-queue.10s`).  Default: `.`
+
+__initialDelay__ (optional): Delay in milliseconds between retries.  Default: `5000`.
+
+__maxRetries__ (optional):  Maximum number of retries before dead-lettering.  Default: `5`.
+
+__separator__ (options): The retry queue separator to use (ie, `delayed.retry.consumer-queue.10s`).  Default: `.`.
 
 
 [npm-image]: https://badge.fury.io/js/amqplib-retryable.svg
 [npm-url]: https://npmjs.org/package/amqplib-retryable
 [ci-image]: https://travis-ci.org/Bunk/amqplib-retryable.svg?branch=master
 [ci-url]: https://travis-ci.org/Bunk/amqplib-retryable
+[coverage-image]: https://coveralls.io/repos/github/Bunk/amqplib-retryable/badge.svg
+[coverage-url]: https://coveralls.io/github/Bunk/amqplib-retryable
