@@ -47,9 +47,9 @@ __maxRetries__ (optional):  Maximum number of retries before dead-lettering.  De
 __separator__ (options): The retry queue separator to use (ie, `delayed.retry.consumer-queue.10s`).  Default: `.`
 
 
-[npm-image]: https://img.shields.io/npm/v/amqplib-retryable.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/amqplib-retryable.svg
 [npm-url]: https://npmjs.org/package/amqplib-retryable
-[dependencies-image]: https://david-dm.org/lanetix/node-amqplib-retry/status.svg
-[dependencies-url]: https://david-dm.org/lanetix/node-amqplib-retry
-[dependencies-dev-image]: https://david-dm.org/lanetix/node-amqplib-retry/dev-status.svg
-[dependencies-dev-url]: https://david-dm.org/lanetix/node-amqplib-retry?type=dev
+[dependencies-image]: https://david-dm.org/bunk/amqplib-retryable/status.svg
+[dependencies-url]: https://david-dm.org/bunk/amqplib-retryable
+[dependencies-dev-image]: https://david-dm.org/bunk/amqplib-retryable/dev-status.svg
+[dependencies-dev-url]: https://david-dm.org/bunk/amqplib-retryable?type=dev
