@@ -1,8 +1,16 @@
 {
   "name": "amqplib-retryable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Retryable message channels for amqp.node",
-  "keywords": [ "amqplib", "amqp", "rabbitmq", "message", "channel", "retry", "queue" ],
+  "keywords": [
+    "amqplib",
+    "amqp",
+    "rabbitmq",
+    "message",
+    "channel",
+    "retry",
+    "queue"
+  ],
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint ./src",
