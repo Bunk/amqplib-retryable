@@ -1,7 +1,8 @@
 {
-  "name": "amqplib-retry",
+  "name": "amqplib-retryable",
   "version": "1.0.0",
-  "description": "RabbitMQ retry logic for amqp.node",
+  "description": "Retryable message channels for amqp.node",
+  "keywords": [ "amqplib", "amqp", "rabbitmq", "message", "channel", "retry", "queue" ],
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint ./src",
@@ -48,13 +49,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bunk/rabbit-topology.git"
+    "url": "git+https://github.com/bunk/amqplib-retryable.git"
   },
-  "author": "LeanKit",
+  "author": "JD Courtoy",
   "bugs": {
-    "url": "https://github.com/bunk/rabbit-topology/issues"
+    "url": "https://github.com/bunk/amqplib-retryable/issues"
   },
-  "homepage": "https://github.com/bunk/rabbit-topology#readme",
+  "homepage": "https://github.com/bunk/amqplib-retryable#readme",
   "nyc": {
     "include": [
       "src/**/*.js"
