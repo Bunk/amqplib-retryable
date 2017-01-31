@@ -1,6 +1,6 @@
 {
   "name": "amqplib-retryable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Retryable message channels for amqp.node",
   "keywords": [
     "amqplib",
