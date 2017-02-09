@@ -30,8 +30,10 @@
     "prepublish": "npm run cover && npm run build"
   },
   "dependencies": {
-    "amqp-delay.node": "^0.2.0",
-    "amqplib": "^0.5.1"
+    "amqp-delay.node": "^0.2.0"
+  },
+  "peerDependencies": {
+    "amqplib": "0.x"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
