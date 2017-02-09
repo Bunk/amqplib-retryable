@@ -1,5 +1,9 @@
 ## 1.x
 
+### 1.0.3
+
+* Support amqplib as a peerDependency
+
 ### 1.0.2
 
 * Update the build configuration
