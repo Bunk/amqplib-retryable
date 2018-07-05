@@ -1,11 +1,5 @@
-const assertionUtils = require( "./assertions" );
-const utils = require( "./utils" );
-const amqplib = require( "./mocks/amqplib" );
+const assertions = require('./assertions')
+const utils = require('./utils')
+const amqplib = require('amqplib-mocks')
 
-global.testHelpers = {
-	amqplib,
-	chai: assertionUtils.chai,
-	assert: assertionUtils.assert,
-	sinon: assertionUtils.sinon,
-	proxyquire: utils.proxyquire
-};
+module.exports = Object.assign({ amqplib }, assertions, utils)
