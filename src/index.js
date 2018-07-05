@@ -53,9 +53,8 @@ module.exports = (channel, {
     channel.retry = attemptRetry
 
     return _originalConsume(queue, (msg) => {
-      if (!msg) return Promise.reject(new Error('Broker cancelled the consumer remotely'))
-      // TODO: Support non-promises
-      return fn(msg).catch(err => attemptRetry(msg, err))
+      const promise = Promise.resolve(fn(msg))
+      return promise.catch(err => attemptRetry(msg, err))
     }, opt)
   }
 
